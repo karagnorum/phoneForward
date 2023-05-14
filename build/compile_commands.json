@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/ja/duze/build",
+  "command": "/usr/bin/gcc   -std=c17 -Wall -Wextra -Wno-implicit-fallthrough -g   -o CMakeFiles/phone_forward.dir/src/phone_forward.c.o   -c /home/ja/duze/src/phone_forward.c",
+  "file": "/home/ja/duze/src/phone_forward.c"
+},
+{
+  "directory": "/home/ja/duze/build",
+  "command": "/usr/bin/gcc   -std=c17 -Wall -Wextra -Wno-implicit-fallthrough -g   -o CMakeFiles/phone_forward.dir/src/phone_forward_example.c.o   -c /home/ja/duze/src/phone_forward_example.c",
+  "file": "/home/ja/duze/src/phone_forward_example.c"
+},
+{
+  "directory": "/home/ja/duze/build",
+  "command": "/usr/bin/gcc   -std=c17 -Wall -Wextra -Wno-implicit-fallthrough -g   -o CMakeFiles/phone_forward.dir/src/vector.c.o   -c /home/ja/duze/src/vector.c",
+  "file": "/home/ja/duze/src/vector.c"
+},
+{
+  "directory": "/home/ja/duze/build",
+  "command": "/usr/bin/gcc   -std=c17 -Wall -Wextra -Wno-implicit-fallthrough -g   -o CMakeFiles/phone_forward.dir/src/strings.c.o   -c /home/ja/duze/src/strings.c",
+  "file": "/home/ja/duze/src/strings.c"
+}
+]

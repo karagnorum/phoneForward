@@ -1,0 +1,4 @@
+/home/ja/duze/build/CMakeFiles/rebuild_cache.dir
+/home/ja/duze/build/CMakeFiles/edit_cache.dir
+/home/ja/duze/build/CMakeFiles/doc.dir
+/home/ja/duze/build/CMakeFiles/phone_forward.dir
