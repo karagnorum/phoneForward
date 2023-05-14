@@ -1,12 +1,12 @@
 # phoneForward
 Duże zadanie z przedmiotu Indywidualny Projekt Programistyczny.
 
-### Treść zadania
+## Treść zadania
 
 Telefony
 Tegoroczne duże zadanie polega na zaimplementowaniu operacji na numerach telefonów. Na potrzeby tego zadania przyjmujemy, że numer telefonu jest to niepusty ciąg składający się z cyfr 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.
 
-Część 1 zadania
+### Część 1 zadania
 Jako pierwszą część zadania należy zaimplementować moduł operacji przekierowywania numerów telefonów. Opis interfejsu modułu znajduje się w pliku phone_forward.h w formacie komentarzy dla programu doxygen.
 
 src/phone_forward.h – deklaracja interfejsu modułu wraz z jego dokumentacją w formacie doxygen,
@@ -16,7 +16,7 @@ Doxyfile.in – plik konfiguracyjny programu doxygen,
 MainPage.dox – strona główna dokumentacji w formacie doxygen.
 Zastrzegamy sobie możliwość nanoszenia poprawek do tego szablonu. Będziemy je umieszczać w gałęzi template/part1.
 
-Wymagamy
+### Wymagamy
 Jako rozwiązanie części 1 zadania wymagamy:
 
 ewentualnego uzupełnienia implementacji w pliku phone_forward.h,
