@@ -1,5 +1,6 @@
 # Telefony
-Tegoroczne duże zadanie polega na zaimplementowaniu operacji na numerach telefonów. Na potrzeby tego zadania przyjmujemy, że numer telefonu jest to niepusty ciąg składający się z cyfr 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.
+Implementacja dużego zadania z przedmiotu Indywidualny Projekt Programistyczny
+Duże zadanie polegało na zaimplementowaniu operacji na numerach telefonów. Na potrzeby tego zadania przyjmujemy, że numer telefonu jest to niepusty ciąg składający się z cyfr 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.
 
 ## Część 1 zadania
 Jako pierwszą część zadania należy zaimplementować moduł operacji przekierowywania numerów telefonów. Opis interfejsu modułu znajduje się w pliku phone_forward.h w formacie komentarzy dla programu doxygen.
