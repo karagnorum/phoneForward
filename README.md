@@ -1,12 +1,7 @@
-# phoneForward
-Duże zadanie z przedmiotu Indywidualny Projekt Programistyczny.
-
-## Treść zadania
-
-Telefony
+# Telefony
 Tegoroczne duże zadanie polega na zaimplementowaniu operacji na numerach telefonów. Na potrzeby tego zadania przyjmujemy, że numer telefonu jest to niepusty ciąg składający się z cyfr 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.
 
-### Część 1 zadania
+## Część 1 zadania
 Jako pierwszą część zadania należy zaimplementować moduł operacji przekierowywania numerów telefonów. Opis interfejsu modułu znajduje się w pliku phone_forward.h w formacie komentarzy dla programu doxygen.
 
 src/phone_forward.h – deklaracja interfejsu modułu wraz z jego dokumentacją w formacie doxygen,
@@ -45,13 +40,13 @@ W wyniku kompilacji powinien powstać plik wykonywalny phone_forward oraz dokume
 cmake -D CMAKE_BUILD_TYPE=Release ..
 Zawartość dostarczonych przez nas plików można modyfikować, o ile nie zmienia to interfejsu modułu i zachowuje wymagania podane w treści zadania, przy czym nie wolno zmieniać opcji kompilacji. Zmiany mogą dotyczyć np. stylu, dokumentacji, deklaracji typedef, włączania plików nagłówkowych, implementacji funkcji jako static inline. Ewentualne dodatkowe pliki źródłowe, będące częścią rozwiązania, należy umieścić w katalogu src. Funkcja main programu musi znajdować się w pliku phone_forward_example.c, ale zawartość tego pliku nie będzie oceniana w tej części zadania.
 
-Oddawanie rozwiązania
+### Oddawanie rozwiązania
 Rozwiązanie należy oddawać przez wspomniane wyżej repozytorium git. W repozytorium mają się znaleźć wszystkie pliki niezbędne do zbudowania pliku wykonywalnego oraz dokumentacji. W repozytorium nie wolno umieszczać plików binarnych ani tymczasowych. W Moodle jako rozwiązanie należy umieścić tekst zawierający identyfikator finalnej wersji (ang. commit) rozwiązania, na przykład:
 
 518507a7e9ea50e099b33cb6ca3d3141bc1d6638
 Rozwiązanie należy zatwierdzić (git commit) i wysłać do repozytorium (git push) przed terminem podanym w Moodle.
 
-Punktacja
+### Punktacja
 Za w pełni poprawne rozwiązanie zadania implementujące wszystkie wymagane funkcjonalności można zdobyć maksymalnie 20 punktów. Od tej oceny będą odejmowane punkty za poniższe uchybienia:
 
 Za problemy ze skompilowaniem rozwiązania można stracić wszystkie punkty.
@@ -62,14 +57,14 @@ Za złą jakość kodu, brzydki styl kodowania można stracić do 4 punktów.
 Za ostrzeżenia wypisywane przez kompilator można stracić do 2 punktów.
 Za braki w dokumentacji można stracić do 2 punktów.
 
-Część 2 zadania
+## Część 2 zadania
 Modyfikujemy definicję numeru telefonu. Numer telefonu jest to nadal niepusty ciąg, którego elementami są cyfry, ale teraz dozwolone są dwie dodatkowe cyfry. Cyfrę dziesięć reprezentujemy jako znak *, a cyfrę jedenaście – jako znak #.
 
 Należy zaimplementować funkcję phfwdReverse według specyfikacji podanej w szablonie rozwiązania udostępnionym z pierwszą częścią zadania.
 
 Ponadto w drugiej części zadania oczekujemy poprawienia ewentualnych błędów z poprzedniej części zadania.
 
-Część 3 zadania
+## Część 3 zadania
 Niestety funkcja phfwdReverse nie wyznacza przeciwobrazu funkcji phfwdGet. Jeśli phfwdGet(x) = y, to x należy do wyniku phfwdReverse(y). Implikacja w drugą stronę nie zachodzi. Należy zaimplementować funkcję
 
 PhoneNumbers * phfwdGetReverse(PhoneForward const *pf, char const *num);
